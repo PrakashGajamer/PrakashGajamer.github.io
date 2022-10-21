@@ -1,0 +1,64 @@
+html {
+	margin-left: 100px;
+    background-color: #cfe3f5;
+  }
+
+header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	color: rgb(72, 72, 189);
+}
+
+section{
+	color: rgb(207, 58, 58);
+}
+
+article {	
+	padding: 0 0 0.47rem;
+	margin-bottom: .97rem;
+	border-bottom: 1px solid var(--white);
+}
+
+nav ul {
+	padding-left: 110rem;
+	width: 1000px;	
+  } 
+
+  nav ul :hover{
+	color: rgb(207, 58, 58);
+  }
+
+  img{
+	
+	padding-left: 75%;
+	 width: 20%;
+	  }
+p {
+	margin-bottom: 30px;
+	max-width: 1000px;
+}
+
+body {
+	color: var(--black);
+	font: 18px/1.5 'Raleway', sans-serif;
+}
+
+.ProjectList{
+	color: var(--black);
+	font: 18px/1.5 'Raleway', sans-serif;
+}
+
+.ProjectList, .ProjectList1, .ProjectList2{
+	max-width: 1000px;	
+}
+
+footer {
+	max-width: 1000px;	
+	border-top: 12px solid var(--white);
+	text-align: right;
+	
+}
